@@ -17,7 +17,8 @@ lazy val root = (project in file("."))
     libraryDependencies ++= Seq(
       "net.ivoah" %% "vial" % "0.3.3",
       "com.lihaoyi" %% "scalatags" % "0.12.0",
-      "org.rogach" %% "scallop" % "5.1.0"
+      "org.rogach" %% "scallop" % "5.1.0",
+      "org.scala-lang" %% "toolkit" % "0.2.1"
     ),
     assembly / assemblyOutputPath := file("bookmarks.jar")
   )

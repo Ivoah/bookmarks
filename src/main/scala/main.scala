@@ -2,9 +2,36 @@ package net.ivoah.bookmarks
 
 import net.ivoah.vial.*
 import org.rogach.scallop.*
+import scalatags.Text.all.*
+import scalatags.Text.tags2.title
 
-val router = Router {
-  case _ => Response("Hello!")
+import upickle.default.*
+
+case class Bookmark(title: String, url: String, children: Seq[Bookmark] = Seq()) derives ReadWriter {
+  def render(): Frag = frag(
+    s"$title: ", a(href:=url, url), br(),
+    ul(
+      for (bookmark <- children) yield li(bookmark.render())
+    )
+  )
+}
+
+def router(bookmarks: Seq[Bookmark]) = Router {
+  case _ => Response("<!DOCTYPE html>\n" + html(
+    head(
+      title("Noah's bookmarks"),
+      link(rel:="stylesheet", href:="https://ivoah.net/common.css")
+    ),
+    body(
+      h1("Noah's bookmarks"),
+      hr(),
+      div(textAlign:="left",
+        ul(
+          for (bookmark <- bookmarks) yield li(bookmark.render())
+        )
+      )
+    )
+  ))
 }
 
 @main
@@ -21,12 +48,21 @@ def main(args: String*): Unit = {
 
   val conf = Conf(args)
   implicit val logger: String => Unit = if (conf.verbose()) println else (msg: String) => ()
+
+//  val bookmarks = Seq(
+//    Bookmark("Foo", "https://example.com")
+//  )
+
+  println("loading bookmarks")
+  val bookmarks = read[Seq[Bookmark]](os.read(os.pwd / "bookmarks.json"))
+  println(s"loaded bookmarks: $bookmarks")
+
   val server = if (conf.socket.isDefined) {
     println(s"Using unix socket: ${conf.socket()}")
-    Server(router, socket = conf.socket.toOption)
+    Server(router(bookmarks), socket = conf.socket.toOption)
   } else {
     println(s"Using host/port: ${conf.host()}:${conf.port()}")
-    Server(router, conf.host(), conf.port())
+    Server(router(bookmarks), conf.host(), conf.port())
   }
   server.serve()
 }
