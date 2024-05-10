@@ -7,7 +7,7 @@ import scalatags.Text.tags2.title
 
 import upickle.default.*
 
-case class Bookmark(title: String, url: String, children: Seq[Bookmark] = Seq()) derives ReadWriter {
+case class Bookmark(title: String, url: String = "", children: Seq[Bookmark] = Seq()) derives ReadWriter {
   def render(): Frag = frag(
     s"$title: ", a(href:=url, url), br(),
     ul(
@@ -53,9 +53,7 @@ def main(args: String*): Unit = {
 //    Bookmark("Foo", "https://example.com")
 //  )
 
-  println("loading bookmarks")
   val bookmarks = read[Seq[Bookmark]](os.read(os.pwd / "bookmarks.json"))
-  println(s"loaded bookmarks: $bookmarks")
 
   val server = if (conf.socket.isDefined) {
     println(s"Using unix socket: ${conf.socket()}")

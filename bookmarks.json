@@ -1,11 +1,9 @@
 [
     {
       "title": "Programming",
-      "url": "",
       "children": [
         {
           "title": "Languages",
-          "url": "",
           "children": [
             {
               "title": "Claro",
@@ -13,8 +11,7 @@
               "children": [
                 {
                   "title": "HN discussion (2024-02-29)",
-                  "url": "https://news.ycombinator.com/item?id=39545501",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=39545501"
                 }
               ]
             },
@@ -24,8 +21,7 @@
               "children": [
                 {
                   "title": "HN discussion (2022-11-27)",
-                  "url": "https://news.ycombinator.com/item?id=33761193",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=33761193"
                 }
               ]
             },
@@ -35,8 +31,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-01-09)",
-                  "url": "https://news.ycombinator.com/item?id=34307552",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=34307552"
                 }
               ]
             },
@@ -46,8 +41,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-01-29)",
-                  "url": "https://news.ycombinator.com/item?id=34567815",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=34567815"
                 }
               ]
             },
@@ -57,8 +51,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-01-27)",
-                  "url": "https://news.ycombinator.com/item?id=34553236",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=34553236"
                 }
               ]
             },
@@ -68,8 +61,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-03-10)",
-                  "url": "https://news.ycombinator.com/item?id=35092027",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=35092027"
                 }
               ]
             },
@@ -79,8 +71,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-03-19)",
-                  "url": "https://news.ycombinator.com/item?id=35217860",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=35217860"
                 }
               ]
             },
@@ -90,8 +81,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-03-18)",
-                  "url": "https://news.ycombinator.com/item?id=35207171",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=35207171"
                 }
               ]
             },
@@ -105,15 +95,13 @@
                   "children": [
                     {
                       "title": "HN discussion (2023-04-12)",
-                      "url": "https://news.ycombinator.com/item?id=35539255",
-                      "children": []
+                      "url": "https://news.ycombinator.com/item?id=35539255"
                     }
                   ]
                 },
                 {
                   "title": "Janet for Mortals",
-                  "url": "https://janet.guide/",
-                  "children": []
+                  "url": "https://janet.guide/"
                 }
               ]
             },
@@ -123,8 +111,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-07-27)",
-                  "url": "https://news.ycombinator.com/item?id=36898612",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=36898612"
                 }
               ]
             },
@@ -134,13 +121,11 @@
               "children": [
                 {
                   "title": "HN discussion (2023-08-17)",
-                  "url": "https://news.ycombinator.com/item?id=37156337",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=37156337"
                 },
                 {
                   "title": "Video",
-                  "url": "https://www.youtube.com/watch?v=lvvzolKHt2E",
-                  "children": []
+                  "url": "https://www.youtube.com/watch?v=lvvzolKHt2E"
                 }
               ]
             },
@@ -150,26 +135,22 @@
               "children": [
                 {
                   "title": "HN discussion (2024-05-10)",
-                  "url": "https://news.ycombinator.com/item?id=40316010",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=40316010"
                 }
               ]
             },
             {
               "title": "Biscuit Language",
-              "url": "https://biscuitlang.org/",
-              "children": []
+              "url": "https://biscuitlang.org/"
             },
             {
               "title": "Uxntal",
-              "url": "https://wiki.xxiivv.com/site/uxntal.html",
-              "children": []
+              "url": "https://wiki.xxiivv.com/site/uxntal.html"
             }
           ]
         },
         {
           "title": "Articles/Books",
-          "url": "",
           "children": [
             {
               "title": "A Compiler Writing Playground",
@@ -177,8 +158,7 @@
               "children": [
                 {
                   "title": "HN discussion (2022-11-26)",
-                  "url": "https://news.ycombinator.com/item?id=33752484",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=33752484"
                 }
               ]
             },
@@ -188,8 +168,7 @@
               "children": [
                 {
                   "title": "HN discussion (2022-12-09)",
-                  "url": "https://news.ycombinator.com/item?id=33927021",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=33927021"
                 }
               ]
             },
@@ -199,8 +178,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-03-11)",
-                  "url": "https://news.ycombinator.com/item?id=35106340",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=35106340"
                 }
               ]
             },
@@ -210,8 +188,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-04-16)",
-                  "url": "https://news.ycombinator.com/item?id=35595071",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=35595071"
                 }
               ]
             },
@@ -221,8 +198,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-05-07)",
-                  "url": "https://news.ycombinator.com/item?id=35852321",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=35852321"
                 }
               ]
             },
@@ -232,8 +208,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-05-07)",
-                  "url": "https://news.ycombinator.com/item?id=35855398",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=35855398"
                 }
               ]
             },
@@ -243,8 +218,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-05-28)",
-                  "url": "https://news.ycombinator.com/item?id=36103946",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=36103946"
                 }
               ]
             },
@@ -254,8 +228,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-06-01)",
-                  "url": "https://news.ycombinator.com/item?id=36154531",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=36154531"
                 }
               ]
             },
@@ -265,8 +238,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-07-02)",
-                  "url": "https://news.ycombinator.com/item?id=36562432",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=36562432"
                 }
               ]
             },
@@ -276,8 +248,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-08-20)",
-                  "url": "https://news.ycombinator.com/item?id=37202009",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=37202009"
                 }
               ]
             },
@@ -287,8 +258,7 @@
               "children": [
                 {
                   "title": "HN discussion (2023-07-16)",
-                  "url": "https://news.ycombinator.com/item?id=36748043",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=36748043"
                 }
               ]
             }
@@ -296,7 +266,6 @@
         },
         {
           "title": "Tools/Apps",
-          "url": "",
           "children": [
             {
               "title": "Bruno (API client)",
@@ -304,31 +273,26 @@
               "children": [
                 {
                   "title": "HN discussion (2024-03-09)",
-                  "url": "https://news.ycombinator.com/item?id=39653718",
-                  "children": []
+                  "url": "https://news.ycombinator.com/item?id=39653718"
                 }
               ]
             },
             {
               "title": "Gimel Studio (Non-destructive, 2D image editor focused on simplicity, speed, elegance, and usability)",
-              "url": "https://gimelstudio.github.io/",
-              "children": []
+              "url": "https://gimelstudio.github.io/"
             }
           ]
         },
         {
           "title": "Other",
-          "url": "",
           "children": [
             {
               "title": "CS 6120: Advanced Compilers: The Self-Guided Online Course",
-              "url": "https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/",
-              "children": []
+              "url": "https://www.cs.cornell.edu/courses/cs6120/2020fa/self-guided/"
             },
             {
               "title": "Z3 API in Python",
-              "url": "https://ericpony.github.io/z3py-tutorial/guide-examples.htm",
-              "children": []
+              "url": "https://ericpony.github.io/z3py-tutorial/guide-examples.htm"
             }
           ]
         }
