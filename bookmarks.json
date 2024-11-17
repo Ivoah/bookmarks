@@ -150,11 +150,51 @@
             {
               "title": "Hy",
               "url": "https://hylang.org/"
+            },
+            {
+              "title": "Higher Order Co (Bend)",
+              "url": "https://higherorderco.com/",
+              "children": [
+                {
+                  "title": "HN discussion (2024-05-17)",
+                  "url": "https://news.ycombinator.com/item?id=40390287"
+                }
+              ]
+            },
+            {
+              "title": "Gleam",
+              "url": "https://gleam.run/"
+            },
+            {
+              "title": "Elixir",
+              "url": "https://elixir-lang.org/"
+            },
+            {
+              "title": "Koka",
+              "url": "https://koka-lang.github.io/koka/doc/index.html"
+            },
+            {
+              "title": "_hyperscript",
+              "url": "https://hyperscript.org/"
+            },
+            {
+              "title": "MLScript",
+              "url": "https://ucs.mlscript.dev/"
+            },
+            {
+              "title": "Hazel",
+              "url": "https://hazel.org/",
+              "children": [
+                {
+                  "title": "HN discussion (2024-10-31)",
+                  "url": "https://news.ycombinator.com/item?id=42004133"
+                }
+              ]
             }
           ]
         },
         {
-          "title": "Articles/Books",
+          "title": "Articles/Books/Papers",
           "children": [
             {
               "title": "A Compiler Writing Playground",
@@ -265,6 +305,14 @@
                   "url": "https://news.ycombinator.com/item?id=36748043"
                 }
               ]
+            },
+            {
+              "title": "How to build a BVH",
+              "url": "https://jacco.ompf2.com/2022/04/13/how-to-build-a-bvh-part-1-basics/"
+            },
+            {
+              "title": "The Ultimate Conditional Syntax",
+              "url": "https://dl.acm.org/doi/pdf/10.1145/3689746"
             }
           ]
         },
@@ -288,6 +336,15 @@
           ]
         },
         {
+          "title": "Libraries",
+          "children": [
+            {
+              "title": "Cello",
+              "url": "https://www.libcello.org/"
+            }
+          ]
+        },
+        {
           "title": "Other",
           "children": [
             {
@@ -297,8 +354,29 @@
             {
               "title": "Z3 API in Python",
               "url": "https://ericpony.github.io/z3py-tutorial/guide-examples.htm"
+            },
+            {
+              "title": "Scratchapixel 4.0, Learn Computer Graphics Programming",
+              "url": "https://www.scratchapixel.com/index.html"
             }
           ]
+        }
+      ]
+    },
+    {
+      "title": "Blogs",
+      "children": [
+        {
+          "title": "Max Bernstein",
+          "url": "https://bernsteinbear.com/blog/"
+        },
+        {
+          "title": "Julia Evans",
+          "url": "https://jvns.ca/"
+        },
+        {
+          "title": "rachelbythebay",
+          "url": "https://rachelbythebay.com/w/"
         }
       ]
     }
