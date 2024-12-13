@@ -46,3 +46,11 @@ build/
 
 ### Scala ###
 .bsp/
+.bloop/
+.metals/
+project/
+!project/build.properties
+!project/plugins.sbt
+
+src/main/resources/credentials.txt
+bookmarks.jar
